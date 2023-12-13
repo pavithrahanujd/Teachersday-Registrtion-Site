@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+           background-image: url('t4.png');
+             background-repeat:repeat;		   
+            background-size: auto;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color:#33ccff;
+            box-shadow: 10 10 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+		border:5px solid black;
+            margin-top: 20px; /
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff00ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Welcome to our competition!</h2>
+        <p>Fill out the form below to register for the competition.</p>
+
+        <form action="form1.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+
+</html>
